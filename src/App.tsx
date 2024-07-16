@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 function App() {
   const [Data, setData] = useState(null);
-  const [loading, setloading] = useState(false);
+  // const [loading, setloading] = useState(false);
   const [ShowModal, setShowModal] = useState(false);
   function handleToggleModal() {
     setShowModal(!ShowModal);
